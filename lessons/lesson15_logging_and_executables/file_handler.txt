@@ -1,0 +1,33 @@
+2017-11-26 17:17:14,038 filetest     DEBUG    Example logging message
+2017-11-26 17:23:16,197 filetest     DEBUG    Example logging message
+2017-11-26 17:24:13,519 filetest     DEBUG    Example logging message
+2017-11-26 17:24:49,436 filetest     DEBUG    Example logging message
+2017-11-26 17:30:19,431 filetest     DEBUG    Example logging message
+2017-11-26 17:30:34,908 filetest     DEBUG    Example logging message
+2017-11-26 17:30:37,832 filetest     DEBUG    Example logging message
+2017-11-26 17:32:39,741 filetest     INFO     Example logging message
+2017-11-26 17:33:21,308 filetest     INFO     Example logging message
+2017-11-26 17:34:35,241 filetest     INFO     Example logging messageS
+2017-11-26 17:34:35,485 filetest     INFO     Example logging messageS
+2017-11-26 17:34:36,060 filetest     INFO     Example logging messageS
+2017-11-26 17:34:36,665 filetest     INFO     Example logging messageS
+2017-11-26 17:34:37,642 filetest     INFO     Example logging messageS
+2017-11-26 17:35:15,692 filetest     INFO     Example logging messageS
+2017-11-26 17:35:17,487 filetest     INFO     Example logging messageS
+2017-11-26 17:35:19,636 filetest     INFO     Example logging messageS
+2017-11-26 17:35:47,416 filetest     INFO     Example logging message
+2017-11-26 17:35:48,068 filetest     INFO     Example logging message
+2017-11-26 17:35:48,877 filetest     INFO     Example logging message
+2017-11-26 17:37:05,052 filetest     INFO     Example logging message
+2017-11-26 17:37:05,745 filetest     INFO     Example logging message
+2017-11-26 18:31:52,760 filetest     ERROR    Please create the variable before using it
+Traceback (most recent call last):
+  File "<ipython-input-50-dc7c61b494f9>", line 2, in <module>
+    variable_does_not_exist
+NameError: name 'variable_does_not_exist' is not defined
+2017-11-26 18:32:44,556 filetest     ERROR    Please create the variable before using it
+2017-11-26 18:35:50,918 filetest     ERROR    Please create the variable before using it
+Traceback (most recent call last):
+  File "<ipython-input-53-e99465281d1d>", line 2, in <module>
+    variable_does_not_exist
+NameError: name 'variable_does_not_exist' is not defined

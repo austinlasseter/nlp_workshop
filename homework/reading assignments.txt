@@ -1,0 +1,11 @@
+
+
+Phrase Models
+Collocations and statistical analysis of n-grams: Multiword expressions in newspaper text: http://dspace.uib.no/bitstream/handle/1956/11033/lyse-andersen-mwe-final.pdf?sequence=1&isAllowed=y
+
+Word Embeddings
+Efficient Estimation of Word Representations in Vector Space: https://arxiv.org/pdf/1301.3781.pdf
+-word embeddings explanation
+
+Advances in Pre-Training Distributed Word Representations: https://arxiv.org/pdf/1712.09405.pdf
+-state of the art methods to create better word embeddings

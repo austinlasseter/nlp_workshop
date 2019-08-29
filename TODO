@@ -1,0 +1,94 @@
+Reference images for slides: https://aws.amazon.com/config/
+
+Lesson 1: Config
+-Add configuration file to project and lessons
+
+Lesson 2: Automation
+-installation instructions for lxml
+- conda install -c anaconda lxml
+- in the homework (last exercise #4) add lines to check if file is already downloaded. Code already exists in the refactoring lesson
+-add method to check if 10k has already been downloaded (no not d/l again)
+
+Lesson 3: Databases
+- update db homework
+
+Lesson 4: Text Extraction
+-change oracle.zip at end of notebook to Southwest
+-add logging
+-add multiprocessing to document extractor
+-add config variable for subprocess at end of notebook
+
+Subprocess for mac - one string space separated
+-subprocess.check_output(['ls raw_data'], shell=True)  
+
+
+Lesson 5: Refactoring
+-create homework
+-add check in database if file is downloaded
+-use following link to create image of process: https://aws.amazon.com/serverless/
+-pycharm installation instuctions
+-https://stackoverflow.com/questions/33782984/reading-data-from-s3-using-lambda
+-https://docs.aws.amazon.com/lambda/latest/dg/with-s3.html
+-http://boto3.readthedocs.io/en/latest/guide/migrations3.html
+
+Lesson 6: Text Vectorization
+-create homework
+-create image for class overview
+-write class overview
+
+Lesson 7: Text Preprocessing
+SpaCy installation:
+    conda install -c conda-forge spacy
+    Download Microsoft Visual C++: http://landinghub.visualstudio.com/visual-cpp-build-tools
+    python -m spacy download en_core_web_lg
+
+
+Lesson 9: OOP
+-the function to count the word statistics counts the overall count of the tokens, not the count pepr document as CountVectorizer is supposed to do
+
+similarity
+https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.akbarian.org%2Fnotes%2Fimg%2Fvsm.png&imgrefurl=http%3A%2F%2Fwww.akbarian.org%2Fnotes%2Ftext-mining-nlp-python%2F&docid=G0C7K7jB-9HieM&tbnid=6cR4eQn778F2hM%3A&vet=10ahUKEwjZhb_omtHZAhUQhuAKHcIECOcQMwhKKAswCw..i&w=903&h=588&bih=560&biw=1266&q=text%20vectorization&ved=0ahUKEwjZhb_omtHZAhUQhuAKHcIECOcQMwhKKAswCw&iact=mrc&uact=8#h=588&imgdii=6cR4eQn778F2hM:&vet=10ahUKEwjZhb_omtHZAhUQhuAKHcIECOcQMwhKKAswCw..i&w=903
+https://www.google.com/imgres?imgurl=https%3A%2F%2Fs3-ap-south-1.amazonaws.com%2Fav-blog-media%2Fwp-content%2Fuploads%2F2017%2F06%2F04164920%2Fcount-vector.png&imgrefurl=https%3A%2F%2Fwww.analyticsvidhya.com%2Fblog%2F2017%2F06%2Fword-embeddings-count-word2veec%2F&docid=bS1IQyHy6PntZM&tbnid=i30PbQ2hemPy0M%3A&vet=10ahUKEwjZhb_omtHZAhUQhuAKHcIECOcQMwhSKBMwEw..i&w=372&h=276&bih=560&biw=1266&q=text%20vectorization&ved=0ahUKEwjZhb_omtHZAhUQhuAKHcIECOcQMwhSKBMwEw&iact=mrc&uact=8
+- add word movers distnace
+- add word2vec
+
+Create guide to hw loe
+1 configuration - low
+2 automation - medium
+3 refactoring - none
+4. text extraction - high
+
+
+
+NLP
+-create nltk installation instructions
+	- Spacy installation
+
+Logging
+-add exercise
+-add image of logging process
+-16.6.7. LogRecord attributes
+  -https://docs.python.org/3/library/logging.html#logrecord-attributes
+
+IDEAS:
+- OCR
+- pipelines, custom transformers
+- Word2Vec for word similarity (e.g. AirBnB words similar to 'walking' to infer close by areas of interest)
+
+TODO:
+- talk to hyemi about skype meeting for large groups
+- ask group to create about-me slides
+- get credit for course / charge code discussion
+
+
+
+EC2 resources
+https://alestic.com/2010/12/ec2-user-data-output/
+https://chatbotslife.com/rasa-nlu-on-aws-28d962acbf53 - install spacy 
+https://ryan-cranfill.github.io/gensim-aws-lambda/  - gensim
+http://www.developintelligence.com/blog/2017/02/analyzing-4-million-yelp-reviews-python-aws-ec2-instance/ - mount drive
+
+NLP Publications
+Enriching Word Vectors with Subword Information: https://arxiv.org/pdf/1607.04606.pdf
+EFFICIENT VECTOR REPRESENTATION FOR DOCUMENTS
+THROUGH CORRUPTION: https://arxiv.org/pdf/1707.02377.pdf
