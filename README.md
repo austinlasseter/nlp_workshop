@@ -1,4 +1,4 @@
-# Machine Learning Guild - NLP Practicum
+# Machine Learning 
 
 ### 1. Configuration
 *  Topics: course overview, git bash, python config.ini files, conda virtual environments
